@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+:root{
+    --cor-1: #f9f9f1;
+    --cor-2: #d8bfd8;
+    --cor-3: #cc527a;
+    --cor-4: #6a5acd;
+    --cor-5: #d8bfd8;
+    --cor-6: #f9f9f1;
+    --fonte: Oswald, verdana;
+    
+}
+body{
+ background-color: var(--cor-1);
+ 
+}
+
+header {
+    width: 100%;
+    display: block;
+    background-color: var(--cor-2);
+    height: 100px;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100px;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--cor-3);
+    height: 100px; 
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+}
+
+header nav :hover {
+    color:var(--cor-4);
+    transition: 0.2s;
+}
+
+.container {
+    display: block;
+    width:1200px;
+    margin: 0 auto;
+  
+}
+li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    
+}
+div.logo {
+    float:left ;
+
+}
+
+h1{
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+p{
+  height:50px ;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: var(--fonte);
+
+ 
+}
+section#tradicionais {
+    margin-block-end: 10px;
+    width: 100%;
+    float: left;
+    display: block;
+    margin-left:30px;
+    margin-right:30px;
+}
+section#tradicionais h1 {
+    text-align:center;
+}
+
+section#tradicionais div.bloco1 {
+    width: 260px;
+    float: left;
+    margin-left:20px;
+    margin-right:20px;
+}
+section#tradicionais div.bloco2 {
+    width: 260px;
+    float: left;
+    margin-left:20px;
+    margin-right:20px;
+}
+section#tradicionais div.bloco3 {
+    width: 260px; 
+    float: left;
+    margin-left:20px;
+    margin-right:20px;
+
+}section#tradicionais div.bloco4 {
+    width: 260px;
+    float: left;
+    margin-left:20px;
+    margin-right:20px;
+}
+section#tradicionais div.bloco5 {
+    width: 260px;
+    float: left;
+    display: block;
+    margin-left:20px;
+    margin-right:20px;
+}
+section#tradicionais div.bloco6 {
+    width: 260px;
+    float: left;
+    display: block;
+    margin-left:20px;
+    margin-right:20px;
+}
+section#tradicionais div.bloco7 {
+    width:260px;
+    float: left;
+    display: block;
+    margin-left:20px;
+    margin-right:20px;
+}
+section#tradicionais div.bloco8 {
+    width:260px;
+    float: left;
+    display: block;
+    margin-left:20px;
+    margin-right:20px;
+}
+footer {
+    width: 100%;
+    float: left;
+    display: block;
+    background: var(--cor-5);
+    color:var(--cor-6);
+    margin-top:30 px;
+    height: 80px;
+    
+    
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+}
+ 
+
+footer img#redes-sociais {
+    width: 80px;
+    float: left;
+}
+
+
+
